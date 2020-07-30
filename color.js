@@ -2,10 +2,27 @@
 var colorDisplay = document.getElementById("colorDisplay");
 var messageDisplay = document.getElementById("message");
 var h1 = document.querySelector("h1");
-
-
+var resetBtn = document.querySelector("#reset");
 
 var colors = generateRandomColors(6);
+
+resetBtn.addEventListener("click", function(){
+    //generate new colors
+    colors = generateRandomColors(6);
+
+    //pick new random color from arr
+    pickedColor = pickColor();
+    //change color display to match picked color
+    colorDisplay.textContent = pickedColor;
+    //change colors of squares
+    for(var i = 0; i < squares.length; i++){
+        squares[i].style.backgroundColor = colors[i];
+        h1.style.backgroundColor = "cornflowerblue";
+    }
+
+})
+
+
 
 
 var squares = document.querySelectorAll(".square");
