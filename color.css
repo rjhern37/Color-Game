@@ -1,3 +1,20 @@
 body{
-    background-color: aqua;
+    background-color: cornflowerblue;
+}
+
+.square {
+    width: 30%;
+    background: blueviolet;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+h1 {
+    color:black;
 }
