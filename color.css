@@ -17,7 +17,7 @@ body{
 }
 
 #container {
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 600px;
 }
 
@@ -41,7 +41,6 @@ h1 {
     background: white;
     height: 30px;
     text-align: center;
-    color: black;
 
 }
 
@@ -60,6 +59,7 @@ button {
     letter-spacing: 1px;
     font-size: inherit;
     transition: all 0.7s;
+    outline: none;
 }
 
 button:hover {
