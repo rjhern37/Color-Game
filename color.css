@@ -1,5 +1,8 @@
 body{
     background-color: cornflowerblue;
+    margin: 0;
+    font-family: 'Antic Slab', serif;
+    font-weight: 700;
 }
 
 .square {
@@ -8,6 +11,9 @@ body{
     padding-bottom: 30%;
     float: left;
     margin: 1.66%;
+    border-radius: 15px;
+    transition: background 2.0s;
+
 }
 
 #container {
@@ -16,15 +22,47 @@ body{
 }
 
 h1 {
-    color:black;
+    color:white;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    background-color: cornflowerblue;
+    line-height: 1.1;
+    padding: 20px 0;
 }
-.message {
+#message {
     color: black;
+    display: inline-block;
+    width: 20%;
 }
 
 #stripe{
     background: white;
     height: 30px;
     text-align: center;
+    color: black;
 
+}
+
+.selected {
+    background: cornflowerblue;
+    color: white;
+}
+
+button {
+    border: none;
+    background-color: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: cornflowerblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.7s;
+}
+
+button:hover {
+    color: white;
+    background-color: cornflowerblue;
 }

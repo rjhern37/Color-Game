@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="color.css">
+    <link rel="stylesheet" type="text/css" href="color.css">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
     <title>Color Game</title>
 </head>
 <body>
-    <h1>Awesome <span id="colorDisplay">Color</span> Game</h1>
+    <h1>
+        Awesome 
+        <br>
+        <span id="colorDisplay">RGB Game</span> 
+        <br>
+        Game
+    </h1>
 
     <div id="stripe">
         <button id="reset">New Colors</button>
         <span id="message"></span>
+        <button id="easyBtn">Easy</button>
+        <button id="hardBtn" class="selected">Hard</button>
     </div>
     
     <div id="container">
@@ -24,7 +33,6 @@
     </div>
 
 
-    <script src="color.js"></script>
-
+    <script type="text/javascript" src="color.js"></script>
 </body>
 </html>
