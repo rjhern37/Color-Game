@@ -1,0 +1,68 @@
+body{
+    background-color: cornflowerblue;
+    margin: 0;
+    font-family: 'Antic Slab', serif;
+    font-weight: 700;
+}
+
+.square {
+    width: 30%;
+    background: blueviolet;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15px;
+    transition: background 2.0s;
+
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    background-color: cornflowerblue;
+    line-height: 1.1;
+    padding: 20px 0;
+}
+#message {
+    color: black;
+    display: inline-block;
+    width: 20%;
+}
+
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+
+}
+
+.selected {
+    background: cornflowerblue;
+    color: white;
+}
+
+button {
+    border: none;
+    background-color: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: cornflowerblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.7s;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background-color: cornflowerblue;
+}
