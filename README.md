@@ -6,6 +6,9 @@ Color-Game
 # Project URL
 https://github.com/rjhern37/color-game
 
+# Deployed Link
+https://rjhern37.github.io/Color-Game/
+
 ## Description 
 This is a small app that allows the user to play a game. In this game the user is given the choice to play in easy or hard mode. Easy mode offers three squares to choose from, while Hard mode adds additional three squares to make it a bit harder to choose. Check it out and let me know what you think! 
 
